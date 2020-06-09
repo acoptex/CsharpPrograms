@@ -5,3 +5,10 @@ E:\CsharpPrograms\Snake\obj\Debug\Snake.csprojAssemblyReference.cache
 E:\CsharpPrograms\Snake\obj\Debug\Snake.csproj.CoreCompileInputs.cache
 E:\CsharpPrograms\Snake\obj\Debug\Snake.exe
 E:\CsharpPrograms\Snake\obj\Debug\Snake.pdb
+D:\CsharpPrograms\CsharpPrograms\Snake\bin\Debug\Snake.exe.config
+D:\CsharpPrograms\CsharpPrograms\Snake\bin\Debug\Snake.exe
+D:\CsharpPrograms\CsharpPrograms\Snake\bin\Debug\Snake.pdb
+D:\CsharpPrograms\CsharpPrograms\Snake\obj\Debug\Snake.csprojAssemblyReference.cache
+D:\CsharpPrograms\CsharpPrograms\Snake\obj\Debug\Snake.csproj.CoreCompileInputs.cache
+D:\CsharpPrograms\CsharpPrograms\Snake\obj\Debug\Snake.exe
+D:\CsharpPrograms\CsharpPrograms\Snake\obj\Debug\Snake.pdb

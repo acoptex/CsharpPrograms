@@ -6,15 +6,13 @@ namespace Snake
     {
         static void Main()
         {
-            Draw(1, 3, '*');
-            Draw(4, 5, '#');
-
+            Point p1 = new Point();
+            Point p2 = new Point();
+            p1.Draw(1, 3, '*');
+            p2.Draw(4, 5, '#');
+            
             Console.ReadKey();
         }
-        static void Draw(int x,int y, char sym)
-        {
-            Console.SetCursorPosition(x, y);
-            Console.WriteLine(sym);
-        }
+        
     }
 }
