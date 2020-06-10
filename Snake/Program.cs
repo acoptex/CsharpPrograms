@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace Snake
 {
@@ -7,33 +6,23 @@ namespace Snake
     {
         static void Main()
         {
-            //creating four objects
-            Point point1 = new Point(2, 3, '*');
+            Console.SetBufferSize(80,25);
+           
+       
+            //creating vertical lines
+            VerticalLine leftLine = new VerticalLine(0, 23, 0, '+');
+            VerticalLine rightLine = new VerticalLine(0, 23, 78, '+');
+            //creating horizontal lines
+            HorizontalLine topLine = new HorizontalLine(0, 78, 0, '+');
+            HorizontalLine bottomLine = new HorizontalLine(0, 78, 23, '+');
+           
+            //creating three points
+            Point point1 = new Point(2, 3, '#');
             Point point2 = new Point(4, 9, '#');
-            Point point3 = new Point(1, 4, '%');
-            Point point4 = new Point(6, 7, '?');
-
-            //creating list with four objects
-            List<Point> pointsList = new List<Point>();
-            pointsList.Add(point1);
-            pointsList.Add(point2);
-            pointsList.Add(point3);
-            pointsList.Add(point4);
-
-            //created list of symbols
-            List<char> symbolsList = new List<char>();
-            symbolsList.Add('*');
-            symbolsList.Add('#');
-            symbolsList.Add('*');
-            symbolsList.Add('#');
-            
-            foreach (char i in symbolsList)
-            {
-                Console.WriteLine(i);
-            }            
-            
-            Console.ReadKey();
+            Point point3 = new Point(3, 4, '#');
+           Console.ReadKey();
         }
-        
+
+
     }
 }
