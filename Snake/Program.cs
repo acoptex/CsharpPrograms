@@ -6,12 +6,13 @@ namespace Snake
     {
         static void Main()
         {
+            Console.SetWindowSize(80, 25);
             Console.SetBufferSize(80,25);
            
        
             //creating vertical lines
-            VerticalLine leftLine = new VerticalLine(0, 23, 0, '+');
-            VerticalLine rightLine = new VerticalLine(0, 23, 78, '+');
+            VerticalLine leftLine = new VerticalLine(0, 24, 0, '+');
+            VerticalLine rightLine = new VerticalLine(0, 24, 78, '+');
             //creating horizontal lines
             HorizontalLine topLine = new HorizontalLine(0, 78, 0, '+');
             HorizontalLine bottomLine = new HorizontalLine(0, 78, 23, '+');
